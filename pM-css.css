@@ -1,0 +1,204 @@
+.audio-text {
+  text-align:center; 
+  font-family: "Lobster";
+  background: linear-gradient(#644e1b 0 30%,#a8832e,#644e1b);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.25rem;
+}
+
+.audio-gold {
+  display: block;
+  margin: 0 auto;
+  height: 18px;
+  width: 320px;
+}
+.audio-gold::-webkit-media-controls-enclosure {
+  border-radius: 4px;
+  border: 2px solid var(--luxor-gold);
+}
+.audio-gold::-webkit-media-controls-panel {
+  background: white;
+  mix-blend-mode: difference;
+}
+.audio-gold::-webkit-media-controls-current-time-display,
+.audio-gold::-webkit-media-controls-time-remaining-display {
+  font-size: 18px;
+  color: #2E53A8;
+  font-family: "Recursive";
+  line-height: 20px;
+}
+
+.h-luxor {
+  margin: 3% auto;
+  width: 50%;
+  height: 1px;
+  border: 1px solid transparent;
+  background: linear-gradient(to right,transparent,#936f28,#a8832e,#936f28,transparent);
+}
+
+.p400 {
+  text-align: justify;
+  font-family: "Recursive";
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* glow logo */
+.glow-logo:before {
+  background: linear-gradient(10deg,#4e3619,#936f28,#a8832e,#bda034,#d2bd3a,#a8832e,#8f6d26, #7e5b20,#6d4a1a,#4e3619);
+}
+.glow-logo:after {
+  background: rgba(49, 51, 56, .855);
+}
+
+/* glow logo janitor, beta */
+.css-1ej4ex, .css-bda9ez {
+  color: var(--luxor-gold);
+  text-shadow: 1px 1px black;
+  font-family: "Recursive";
+}
+
+/* border coloring */
+.css-0 {
+  background: linear-gradient(141deg,#a8832e,#32270d,#644e1b,#b08f42) !important;
+}
+
+/* background(?) */
+.css-1w2dxv6 {
+  background: var(--shark);
+}
+
+/* profile orientation */
+.css-1uodvt1 {
+  flex-direction: column;
+}
+/* badge orientation */
+.css-hjkukh {
+  justify-content: center;
+}
+
+/* pfp */
+.css-hsi2ui {
+  mask-image: url(https://files.catbox.moe/fdyi0f.svg);
+  mask-position: center;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+}
+
+/* username text */
+.css-i6rxpf {
+  font-family: "Lobster";
+  color: var(--luxor-gold);
+  text-shadow: 1px 1px black, -1px -1px grey;
+}
+
+/* public characters text */
+.css-1knfbnh {
+  font-family: "Lobster";
+  color: var(--luxor-gold);
+  text-shadow: 1px 1px black, -1px -1px grey;
+}
+
+/* followers text */
+.css-yrzye3 {
+  text-align: center;
+  font-family: "Recursive";
+  color: var(--brown-rust);
+  text-shadow: 1px 1px black;
+}
+
+/* follower container */
+.css-y9k5u7 {
+  justify-content: center;
+}
+
+/* bot card color */
+.css-1jf56se {
+  background: var(--shark);
+}
+
+/* gets rid of purple background gradient */
+.css-s0ts5r {
+  background: transparent;
+}
+/* bot card divider line */
+.css-1lgnt2x {
+  border-top: 1px solid var(--luxor-gold);
+  width: 100%;
+}
+
+/* bot card star (turned off) */
+.css-19ihot3 {
+  opacity: 0;
+}
+
+/* bot card name */
+.css-1ifv49 {
+  font-family: "Recursive";
+  color: var(--luxor-gold);
+  text-shadow: 1px 1px black;
+}
+
+/* bot card username */
+.css-tn683j {
+  font-family: "Recursive";
+  color: var(--brown-rust);
+  text-shadow: 1px 1px black;
+}
+
+.ribbon .content {
+  background: var(--brown-rust);
+}
+
+/* bot card text */
+.css-96l1id {
+  color: var(--wild-sand);
+}
+
+/* tag text */
+.css-x2gqu0 {
+  border: 1px solid var(--wild-sand);
+  font-family: "Recursive";
+  color: var(--wild-sand);
+}
+.css-x2gqu0:hover {
+  border: 2px solid var(--luxor-gold);
+}
+
+/* limitless tag text */
+.css-1ylu7un {
+  font-family: "Recursive";
+  white-space: nowrap;
+  overflow: hidden;
+  width: 65px;
+  justify-content: left;
+  -webkit-justify-content: left;
+}
+.css-1ylu7un:before {
+  content: "🌶️ Spicy .";
+}
+
+/* number of characters button */
+.Btn2-purple {
+  font-family: "Recursive";
+  color: var(--luxor-gold-lite);
+  background: linear-gradient(to right,#32270d,#a8832e,#32270d,#644e1b,#b08f42,#644e1b);
+  background-size: 250%;
+  background-position: left;
+}
+.Btn2-purple:hover {
+  background-position: right;
+}
+/* and text */
+.css-9lg76n {
+  font-family: "Recursive";
+}
+
+:root {
+  --luxor-gold: #a8832e;
+  --brown-rust: #b05843;
+  --wild-sand: #f4f3f3;
+  --luxor-gold-lite: #b08f42;
+  --shark: #22272a;
+}
