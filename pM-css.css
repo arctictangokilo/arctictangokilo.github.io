@@ -80,10 +80,14 @@
 
 /* pfp */
 .css-hsi2ui {
-  mask-image: url(https://files.catbox.moe/fdyi0f.svg);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border: 3px solid var(--luxor-gold);
+/*  mask-image: url(https://files.catbox.moe/fdyi0f.svg);
   mask-position: center;
   mask-size: 100%;
-  mask-repeat: no-repeat;
+  mask-repeat: no-repeat; */
 }
 
 /* username text */
