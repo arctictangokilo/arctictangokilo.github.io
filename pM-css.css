@@ -88,6 +88,8 @@
 
 /* username text */
 .css-i6rxpf {
+  position: relative;
+  left: 25%;
   font-family: "Lobster";
   color: var(--luxor-gold);
   text-shadow: 1px 1px black, -1px -1px grey;
@@ -106,6 +108,9 @@
   font-family: "Recursive";
   color: var(--brown-rust);
   text-shadow: 1px 1px black;
+}
+.css-yrzye3:after {
+  content: ", wow! How did that happen!? Thank you!";
 }
 
 /* follower container */
