@@ -84,10 +84,15 @@
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
   border: 3px solid var(--luxor-gold);
+  transition-duration: .5s;
 /*  mask-image: url(https://files.catbox.moe/fdyi0f.svg);
   mask-position: center;
   mask-size: 100%;
   mask-repeat: no-repeat; */
+}
+.css-hsi2ui:hover {
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 0px;
 }
 
 /* username text */
