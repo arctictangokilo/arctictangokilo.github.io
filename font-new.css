@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'virgo_01regular';
+    src: url('https://arctictangokilo.github.io/fonts/virgo_01regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Printers Ornaments One';
+    src: url('https://arctictangokilo.github.io/fonts/Printers Ornaments One.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'entyporegular';
+    src:  url('https://arctictangokilo.github.io/fonts/entyporegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Road Rage';
+    src: url('https://arctictangokilo.github.io/fonts/Road Rage.woff2') format('woff2'),
+        url('https://arctictangokilo.github.io/fonts/Road Rage.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'lazer84';
+    src: url('https://arctictangokilo.github.io/fonts/lazer84.woff2') format('woff2'),
+        url('https://arctictangokilo.github.io/fonts/lazer84.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KlingonTNG';
+    src: url('https://arctictangokilo.github.io/fonts/KlingonTNG.woff2') format('woff2'),
+        url('https://arctictangokilo.github.io/fonts/KlingonTNG.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Major Snafu';
+    src: url('https://arctictangokilo.github.io/fonts/Major Snafu.woff2') format('woff2'),
+        url('https://arctictangokilo.github.io/fonts/Major Snafu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'heavyLOUDedge';
+    src: url('https://arctictangokilo.github.io/fonts/heavyLOUDedge.woff2') format('woff2'),
+        url('https://arctictangokilo.github.io/fonts/heavyLOUDedge.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Party Hard';
+    src: url('fonts/Party Hard.woff2') format('woff2'),
+        url('fonts/Party Hard.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PLASTIC PILL';
+    src: url('fonts/PLASTIC PILL.woff2') format('woff2'),
+        url('fonts/PLASTIC PILL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kandinsky';
+    src: url('fonts/Kandinsky.woff2') format('woff2'),
+        url('fonts/Kandinsky.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Portal';
+    src: url('fonts/Portal.woff2') format('woff2'),
+        url('fonts/Portal.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BPapeloigOpen';
+    src: url('fonts/BPapeloigOpen.woff2') format('woff2'),
+        url('fonts/BPapeloigOpen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BPapeloig';
+    src: url('fonts/BPapeloig.woff2') format('woff2'),
+        url('fonts/BPapeloig.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Serpentine ICG';
+    src: url('fonts/Serpentine ICG bold.woff2') format('woff2'),
+        url('fonts/Serpentine ICG bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Serpentine ICG';
+    src: url('fonts/Serpentine ICG italic.woff2') format('woff2'),
+        url('fonts/Serpentine ICG italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SerpentineEF';
+    src: url('fonts/SerpentineEF bold italic.woff2') format('woff2'),
+        url('fonts/SerpentineEF bold italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Serpentine ICG';
+    src: url('fonts/Serpentine ICG 300.woff2') format('woff2'),
+        url('fonts/Serpentine ICG 300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Serpentine ICG';
+    src: url('fonts/Serpentine ICG 300 italic.woff2') format('woff2'),
+        url('fonts/Serpentine ICG 300 italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PumpOpti';
+    src: url('fonts/PumpOpti 600.woff2') format('woff2'),
+        url('fonts/PumpOpti 600.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PumpOpti';
+    src: url('fonts/PumpOpti 500.woff2') format('woff2'),
+        url('fonts/PumpOpti 500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
