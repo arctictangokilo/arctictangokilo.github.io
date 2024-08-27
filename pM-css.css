@@ -1,4 +1,6 @@
 .scrollbox {
+/* dicks dicks dicks */
+  display: block;
   margin: 0 auto;
   text-align: center;
   align-items: center;
@@ -7,7 +9,7 @@
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 2px solid var(--luxor-gold);
+  border: 3px solid var(--luxor-gold);
   overflow: scroll;
   scrollbar-width: none;
   transition-duration: 0.5s;
