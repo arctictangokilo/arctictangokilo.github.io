@@ -98,7 +98,7 @@
 /* username text */
 .css-i6rxpf {
   position: relative;
-  left: 31%;
+/*   left: 31%; */
   font-family: "Lobster";
   color: var(--luxor-gold);
   text-shadow: 1px 1px black, -1px -1px grey;
@@ -119,7 +119,8 @@
   text-shadow: 1px 1px black;
 }
 .css-yrzye3:after {
-  content: ", wow! How did that happen!? Thank you!";
+/*   content: ", wow! How did that happen!? Thank you!"; */
+  content: "!?";
 }
 
 /* follower container */
