@@ -1,5 +1,4 @@
 .scrollbox {
-/* dicks dicks dicks */
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -24,7 +23,8 @@
 }
 
 .audio-text {
-  text-align:center; 
+  -webkit-text-stroke: 0.3px grey;
+  text-align: center; 
   font-family: "Lobster";
   background: linear-gradient(#644e1b 0 30%,#a8832e,#644e1b);
   background-clip: text;
