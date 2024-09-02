@@ -216,3 +216,12 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Oblivion';
+    src: url('/fonts/Oblivion.woff2') format('woff2'),
+        url('/fonts/Oblivion.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
