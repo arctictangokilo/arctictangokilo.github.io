@@ -69,6 +69,14 @@
   margin: 0 auto;
 }
 
+.oblivious {
+  text-align: center;
+  font-family: "Oblivion";
+  font-size: 32px;
+  color: var(--luxor-gold);
+  text-shadow: 1px 1px black, -1px -1px grey;
+}
+
 /* glow logo */
 .glow-logo:before {
   background: linear-gradient(10deg,#4e3619,#936f28,#a8832e,#bda034,#d2bd3a,#a8832e,#8f6d26, #7e5b20,#6d4a1a,#4e3619);
@@ -110,10 +118,6 @@
   border-bottom-left-radius: 50%;
   border: 3px solid var(--luxor-gold);
   transition-duration: .5s;
-/*  mask-image: url(https://files.catbox.moe/fdyi0f.svg);
-  mask-position: center;
-  mask-size: 100%;
-  mask-repeat: no-repeat; */
 }
 .css-hsi2ui:hover {
   border-top-left-radius: 50%;
@@ -123,7 +127,6 @@
 /* username text */
 .css-i6rxpf {
   position: relative;
-/*   left: 31%; */
   font-family: "Lobster";
   color: var(--luxor-gold);
   text-shadow: 1px 1px black, -1px -1px grey;
@@ -185,6 +188,19 @@
   font-family: "Recursive";
   color: var(--brown-rust);
   text-shadow: 1px 1px black;
+}
+
+/* bot images */
+img.chakra-image.css-147i79y {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border: 3px solid var(--luxor-gold);
+  transition-duration: .5s;
+}
+img.chakra-image.css-147i79y:hover {
+  border-radius: 0px;
+  transform: scale(1.1);
 }
 
 .ribbon .content {
