@@ -1,0 +1,23 @@
+.outer {
+  text-shadow: 0 0 5px black;
+  color: green;
+  font-family: JI Nature Bats;
+  top: -11%;
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  font-size: 64px;
+  animation: drop-anim 10s linear;
+}
+.inner {
+  animation: wave-anim 10s ease-in-out infinite;
+}
+
+@keyframes drop-anim {
+  0% {transform: translatey(0);}
+  100% {transform: translatey(110vh);}
+}
+@keyframes wave-anim {
+  0%,100% {transform: translateX(0);}
+  50% {transform: scaleX(-1) translateX(60px);}
+}
