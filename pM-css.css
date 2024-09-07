@@ -63,6 +63,7 @@
 }
 
 .p400 {
+  text-wrap: pretty;
   text-align: justify;
   font-family: "Recursive";
   width: 400px;
