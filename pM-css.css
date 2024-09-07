@@ -199,6 +199,8 @@ img.chakra-image.css-147i79y {
   transition-duration: .5s;
 }
 img.chakra-image.css-147i79y:hover {
+  z-index:1;
+  box-shadow: 2px 2px 7px blue, -2px -2px 7px red;
   border-radius: 0px;
   transform: scale(1.1);
 }
