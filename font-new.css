@@ -234,3 +234,11 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'kalocsai_flowersregular';
+    src: url('Kalocsai_Flowers-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
