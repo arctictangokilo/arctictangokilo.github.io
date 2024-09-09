@@ -242,3 +242,9 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'outgunnedregular';
+    src: url('Outgunned-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
