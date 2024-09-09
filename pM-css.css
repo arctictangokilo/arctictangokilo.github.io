@@ -201,7 +201,7 @@ img.chakra-image.css-147i79y {
 }
 img.chakra-image.css-147i79y:hover {
   z-index:1;
-  box-shadow: 2px 2px 7px blue, -2px -2px 7px red;
+  box-shadow: 0px 0px 19px white;
   border-radius: 0px;
   transform: scale(1.1);
 }
