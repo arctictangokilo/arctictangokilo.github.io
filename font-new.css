@@ -237,49 +237,49 @@
 
 @font-face {
     font-family: 'kalocsai_flowersregular';
-    src: url('Kalocsai_Flowers-webfont.woff') format('woff');
+    src: url('/fonts/Kalocsai_Flowers-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'outgunnedregular';
-    src: url('Outgunned-webfont.woff') format('woff');
+    src: url('/fonts/Outgunned-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'nymphetteregular';
-    src: url('Nymphette-webfont.woff');
+    src: url('/fonts/Nymphette-webfont.woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'davysregular';
-    src: url('DavysDingbats-webfont.woff');
+    src: url('/fonts/DavysDingbats-webfont.woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'floraliaregular';
-    src: url('Floralia-webfont.woff');
+    src: url('/fonts/Floralia-webfont.woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'im_fell_flowers_1regular';
-    src: url('FeFlow1-webfont.woff');
+    src: url('/fonts/FeFlow1-webfont.woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'kingthings_flourishesregular';
-    src: url('Kingthings_Flourishes-webfont.woff');
+    src: url('/fonts/Kingthings_Flourishes-webfont.woff');
     font-weight: normal;
     font-style: normal;
 }
