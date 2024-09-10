@@ -248,3 +248,38 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'nymphetteregular';
+    src: url('Nymphette-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'davysregular';
+    src: url('DavysDingbats-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'floraliaregular';
+    src: url('Floralia-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'im_fell_flowers_1regular';
+    src: url('FeFlow1-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kingthings_flourishesregular';
+    src: url('Kingthings_Flourishes-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
