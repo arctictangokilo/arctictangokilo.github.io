@@ -135,9 +135,14 @@
 
 /* public characters text */
 .css-1knfbnh {
+  font-size: .001rem;
   font-family: "Lobster";
   color: var(--luxor-gold);
   text-shadow: 1px 1px black, -1px -1px grey;
+}
+.css-1knfbnh:before {
+  font-size: 2.3rem;
+  content: "Trash bin";
 }
 
 /* followers text */
