@@ -78,6 +78,173 @@
   text-shadow: 1px 1px black, -1px -1px grey;
 }
 
+.jukenav {
+  padding: 2px;
+  font-family: PumpOpti;
+  width: max-content;
+  margin: 0 auto;
+  color: var(--luxor-gold);
+}
+
+.jukenav:before {
+  content: "{";
+}
+
+.jukenav:after {
+  content: "}";
+}
+
+.navlink {
+  color: var(--luxor-gold);
+}
+
+.navlink:active {
+  color: #86a61c;
+}
+
+.particle {
+  opacity: 0;
+  text-shadow: 0 0 5px black;
+  font-size: 32px;
+  position: fixed;
+  top: -10%;
+  animation-name: pdrop;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: 10;
+  animation-fill-mode: forwards;
+  z-index: 3001;
+  pointer-events: none;
+}
+
+.waver {
+  animation-name: pwave;
+  animation-duration: 11s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.particle:nth-of-type(1),
+.particle:nth-of-type(1) .waver {
+  animation-delay: 1.3s;
+  left: 10%;
+}
+
+.particle:nth-of-type(2),
+.particle:nth-of-type(2) .waver {
+  animation-delay: 6.2s;
+  left: 25%;
+}
+
+.particle:nth-of-type(3),
+.particle:nth-of-type(3) .waver {
+  animation-delay: 12.34s;
+  left: 40%;
+}
+
+.particle:nth-of-type(4),
+.particle:nth-of-type(4) .waver {
+  animation-delay: 18.48596s;
+  left: 15%;
+}
+
+.particle:nth-of-type(5),
+.particle:nth-of-type(5) .waver {
+  animation-delay: 24.2s;
+  left: 50%;
+}
+
+.particle:nth-of-type(6),
+.particle:nth-of-type(6) .waver {
+  animation-delay: 30.8675309s;
+  left: 65%;
+}
+
+.particle:nth-of-type(7),
+.particle:nth-of-type(7) .waver {
+  animation-delay: 36.66s;
+  left: 30%;
+}
+
+.particle:nth-of-type(8),
+.particle:nth-of-type(8) .waver {
+  animation-delay: 42.42s;
+  left: 70%;
+}
+
+.particle:nth-of-type(9),
+.particle:nth-of-type(9) .waver {
+  animation-delay: 48.3s;
+  left: 80%;
+}
+
+.particle:nth-of-type(10),
+.particle:nth-of-type(10) .waver {
+  animation-delay: 52.7s;
+  left: 90%;
+}
+
+.particle:nth-of-type(11),
+.particle:nth-of-type(11) .waver {
+  animation-delay: 16.5s;
+  left: 5%;
+}
+
+.particle:nth-of-type(12),
+.particle:nth-of-type(12) .waver {
+  animation-delay: 30.4s;
+  left: 85%;
+}
+
+@keyframes pdrop {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(110vh);
+  }
+}
+
+@keyframes pwave {
+  0,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: scalex(-1) translateX(80px);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .p400 {
+    font-size: 12px;
+    width: 300px;
+  }
+
+  .scrollbox {
+    width: 300px;
+  }
+
+  .audio-text {
+    font-size: 1rem;
+  }
+
+  .particle {
+    animation-iteration-count: 5;
+  }
+}
+
+/* 8=============================================D */
+/* ---------- eat a sack of baby dicks! ---------- */
+/* 8=============================================D */
+.Btn[data-following="true"] {
+  pointer-events: none;
+}
+
 /* glow logo */
 .glow-logo:before {
   background: linear-gradient(10deg,#4e3619,#936f28,#a8832e,#bda034,#d2bd3a,#a8832e,#8f6d26, #7e5b20,#6d4a1a,#4e3619);
