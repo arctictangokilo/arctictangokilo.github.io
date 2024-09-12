@@ -233,14 +233,16 @@ img.chakra-image.css-147i79y:hover {
 /* limitless tag text */
 .css-1ylu7un {
   font-family: "Recursive";
-  white-space: nowrap;
+  font-size: .01rem;
+/*  white-space: nowrap;
   overflow: hidden;
   width: 65px;
   justify-content: left;
-  -webkit-justify-content: left;
+  -webkit-justify-content: left; */
 }
 .css-1ylu7un:before {
-  content: "🌶️ Spicy .";
+  content: "🌶️ Spicy";
+  font-size: .75rem;
 }
 
 /* number of characters button */
