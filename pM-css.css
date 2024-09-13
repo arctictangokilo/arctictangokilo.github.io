@@ -219,6 +219,28 @@
   }
 }
 
+.jason-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  bottom:-170px;
+  right:5px;
+  position: fixed;
+  z-index: 98;
+  animation-name: jason-pop;
+  animation-delay: 5s;
+  animation-duration:10s;
+}
+.f13text {
+  font-size: 1rem;
+  font-family:Friday13;
+  color: red;
+}
+.jason {
+  width:150px;
+}
+
 @media screen and (orientation: portrait) {
   .p400 {
     font-size: 12px;
