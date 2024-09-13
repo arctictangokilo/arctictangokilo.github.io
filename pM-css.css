@@ -196,6 +196,15 @@
   left: 85%;
 }
 
+@keyframes jason-pop {
+  0% {transform: translatey(0);}
+  50% {transform: translatey(-170px);}
+  70% {transform:scale(1.2) translatey(-170px) translatex(-10px);}
+  80% {transform: scale(1) translatey(-170px) translatex(0); }
+  90% {transform: translatey(-170px);}
+  100% {transform: translatey(0);}
+}
+
 @keyframes pdrop {
   0% {
     opacity: 1;
