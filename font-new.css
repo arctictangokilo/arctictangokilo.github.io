@@ -293,3 +293,119 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Spooky Night';
+    src: url('/fonts/SpookyNight-Regular.woff2') format('woff2'),
+        url('/fonts/SpookyNight-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Best Of Treat';
+    src: url('/fonts/BestOfTreatRegular.woff2') format('woff2'),
+        url('/fonts/BestOfTreatRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DreamSpecter';
+    src: url('/fonts/DemoDreamSpecter.woff2') format('woff2'),
+        url('/fonts/DemoDreamSpecter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gravella';
+    src: url('/fonts/GravellaDEMO-Regular.woff2') format('woff2'),
+        url('/fonts/GravellaDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Horrified Tonight';
+    src: url('/fonts/HorrifiedTonightRegular.woff2') format('woff2'),
+        url('/fonts/HorrifiedTonightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spooky Witch';
+    src: url('/fonts/SpookyWitchPERSONALUSE.woff2') format('woff2'),
+        url('/fonts/SpookyWitchPERSONALUSE.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Black Rose';
+    src: url('/fonts/BlackRose.woff2') format('woff2'),
+        url('/fonts/BlackRose.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TOXIA';
+    src: url('/fonts/TOXIA.woff2') format('woff2'),
+        url('/fonts/TOXIA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Munake';
+    src: url('/fonts/Munake.woff2') format('woff2'),
+        url('/fonts/Munake.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vampire World';
+    src: url('/fonts/VampireWorld-Regular.woff2') format('woff2'),
+        url('/fonts/VampireWorld-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Magma';
+    src: url('/fonts/Magma-Regular.woff2') format('woff2'),
+        url('/fonts/Magma-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pumpkin Night';
+    src: url('/fonts/PumpkinNight.woff2') format('woff2'),
+        url('/fonts/PumpkinNight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Anxiety Of Sadness';
+    src: url('AnxietyOfSadnessRegular.woff2') format('woff2'),
+        url('AnxietyOfSadnessRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
