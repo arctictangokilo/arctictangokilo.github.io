@@ -536,3 +536,10 @@
     font-display: swap;
 }
 /*  */
+@font-face {
+    font-family: 'Kingthings Exeter';
+    src: url('/fonts/Kingthings_Exeter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  */
