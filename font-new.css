@@ -550,3 +550,21 @@
     font-style: normal;
 }
 /*  */
+@font-face {
+    font-family: 'CrashNumberingGothic';
+    src: url('/fonts/CrashNumberingGothic.woff2') format('woff2'),
+        url('/fonts/CrashNumberingGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CrashNumbering';
+    src: url('/fonts/CrashNumberingSerif.woff2') format('woff2'),
+        url('/fonts/CrashNumberingSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*  */
